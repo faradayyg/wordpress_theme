@@ -1,0 +1,230 @@
+/*
+Theme Name: my_custom
+Author: Friday Godswill
+Description: Plain Blog template
+Version: 0.0.1
+Tags: blog, vanillajs, no bootstrap
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body
+{
+	font-family: Lato, sans-serif;
+	padding: 0px; margin: 0px;
+	padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5
+{
+	font-family: Raleway, verdana;
+}
+
+.full-height
+{
+	height: 100%;
+}
+
+.pull-left
+{
+	float:left;
+}
+
+.center-aligned
+{
+	display: flex;
+	align-items: center;
+}
+
+.intro_panel
+{
+	background: rgba(0,0,0,0.5);
+	width: 50%;
+	float:right;
+	padding: 20px;
+	color:#fff !important;
+	text-align: right;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.intro_panel img
+{
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid rgba(0,0,0,0.4);
+}
+
+.intro_panel a
+{
+	font-size: 1.5em;
+	margin:5px;
+	color: rgba(0,0,0,.6);
+}
+
+.intro_panel a:hover
+{
+	color: rgba(200,200,200,.6);
+	transition: 0.5s;
+}
+
+.pull-right
+{
+	float:right;
+}
+
+.navbar
+{
+	list-style-type: none;
+	display: block;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	/*box-shadow: 0 0 5px #555;*/
+	background: #2E7D32; /*#26A65B;*/
+	position: fixed;
+	top:0px;
+}
+
+.navbar li
+{
+	float:left;
+}
+
+.navbar li a
+{
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+	outline: none;
+}
+
+.navbar li a:hover
+{
+	/*background: #388E3C;*/
+	border-bottom: 2px solid #fff;
+	color:#fff;
+}
+
+.navbar .brand
+{
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	padding-left:0px;
+}
+
+.navbar img
+{
+	height: 40px;
+	border-radius: 10px;
+}
+
+.container
+{
+	padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px)
+{
+	.container
+	{
+		width: 94%;
+		max-width: 1000px;
+		margin: auto;
+	}
+
+
+}
+
+.pre-loader
+{
+	position: fixed;
+	top:0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background: #2E7D32;
+	z-index: 3000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#fff;
+}
+
+.pre-loader img
+{
+	border-radius: 50px;
+}
+
+.pre-loader img
+{
+	height: 100px;
+	width: 100px;
+	/*border-bottom: 3px solid #fff;*/
+	animation: pulsee 2s infinite;
+}
+
+@keyframes pulsee
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+
+	30%
+	{
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+	.container
+	{
+		width:100%;
+		max-width: 100%;
+		width: auto;
+	}
+
+
+	.intro_panel
+	{
+		background: rgba(0,0,0,0.3);
+		width: 90%;
+		float:none;
+		padding: 20px;
+		color:#fff !important;
+		text-align: center;
+		box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	}
+
+	.intro_panel a
+	{
+		font-size: 1.5em;
+		margin:5px;
+		color: rgba(200,200,200,.6);
+	}
+
+	.intro_panel a:hover
+	{
+		color: rgba(0,0,0,.6);
+		transition: 0.5s;
+	}
+
+	.navbar .brand
+	{
+		display: none;
+	}
+}
