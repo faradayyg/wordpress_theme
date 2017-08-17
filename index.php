@@ -6,11 +6,9 @@
 	<meta name="description" content="Godswill Friday's Personal Page">
 	<meta name="author" content="Friday Godswill @faradayyg">
 	<link rel="shortcut icon" type="image/png" href="<?php echo get_bloginfo('template_directory'); ?>/images/favicon.png"/>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_directory'); ?>/css/style.css">
 
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
-	<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_directory'); ?>/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_directory'); ?>/css/animate.css">
 </head>
 <body>
 	<div class="pre-loader">
@@ -69,10 +67,10 @@
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(event) { 
 	  setTimeout(function(){
-	  document.getElementsByClassName('pre-loader')[0].classList.add('animated','hinge');
+	  document.getElementsByClassName('pre-loader')[0].classList.add('animated','zoomOut');
 	  document.getElementsByTagName('section')[0].style.display = 'flex'
 	   //your code here
-	  }, 3000);
+	  }, 5000);
 	});
 </script>
 </html>

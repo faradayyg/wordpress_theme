@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.#{$fa-css-prefix}-facebook-official:before { content: $fa-var-facebook-official; }
+.#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
+.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
+.#{$fa-css-prefix}-facebook-f:before,
+.#{$fa-css-prefix}-twitter:before { content: "\f099"; }
+.#{$fa-css-prefix}-facebook:before { content: "\f09a"; }
+.#{$fa-css-prefix}-linkedin-square:before { content: $fa-var-linkedin-square; }
+.#{$fa-css-prefix}-medium:before { content: "\f23a"; }
+.#{$fa-css-prefix}-linkedin:before { content: "\f0e1"; }
+.#{$fa-css-prefix}-github:before { content: "\f09b"; }
