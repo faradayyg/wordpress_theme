@@ -40,7 +40,7 @@
 			
 	</ul>
 
-	<section class="full-height center-aligned" style="background: url(<?php echo get_bloginfo('template_directory');?>/images/bg.png); background-size: cover;display: none">
+	<section class="full-height center-aligned" style="background: url(<?php echo get_bloginfo('template_directory');?>/images/bg.jpg); background-size: cover;display: none">
 		<div class="container">
 			<div class="intro_panel animated zoomIn">
 				<div class="animated bounceInRight">
@@ -68,6 +68,7 @@
 	document.addEventListener("DOMContentLoaded", function(event) { 
 	  setTimeout(function(){
 	  document.getElementsByClassName('pre-loader')[0].classList.add('animated','zoomOut');
+	  document.getElementsByClassName('pre-loader')[0].style.display = 'none';
 	  document.getElementsByTagName('section')[0].style.display = 'flex'
 	   //your code here
 	  }, 5000);
