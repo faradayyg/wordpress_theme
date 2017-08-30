@@ -56,7 +56,9 @@
 					<a href="http://medium.com/@faradayyg" target="blank"><span class="fa fa-medium"></span></a>
 					<a href="http://github.com/faradayyg" target="blank"><span class="fa fa-github"></span></a>
 					<a href="http://www.linkedin.com/in/godswill-friday-181476b1/"><span class="fa fa-linkedin"></span></a>
-				</div>
+				</div><br />
+
+				<small>You can view my resume, <a href="https://www.dropbox.com/s/3qfojm1gdn8w99h/Godswill%20U%20Friday.pdf?dl=0" class="small-text text-white">here</a></small>
 			</div>
 			
 		</div>		
@@ -68,10 +70,13 @@
 	document.addEventListener("DOMContentLoaded", function(event) { 
 	  setTimeout(function(){
 	  document.getElementsByClassName('pre-loader')[0].classList.add('animated','zoomOut');
-	  document.getElementsByClassName('pre-loader')[0].style.display = 'none';
 	  document.getElementsByTagName('section')[0].style.display = 'flex'
 	   //your code here
-	  }, 5000);
+	   setTimeout(function(){
+
+	  document.getElementsByClassName('pre-loader')[0].style.display = 'none';
+	},500);
+	  }, 4000);
 	});
 </script>
 </html>
