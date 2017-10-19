@@ -58,7 +58,7 @@
 					<a href="http://www.linkedin.com/in/godswill-friday-181476b1/"><span class="fa fa-linkedin"></span></a>
 				</div><br />
 
-				<small>You can view my resume, <a href="https://www.dropbox.com/s/3qfojm1gdn8w99h/Godswill%20U%20Friday.pdf?dl=0" class="small-text text-white">here</a></small>
+				<small>You can view my resume, <a href="https://drive.google.com/file/d/0ByVMaT5hobCQaVlld25SMV85VFk/view?usp=sharing" class="small-text text-white">here</a></small>
 			</div>
 			
 		</div>		
@@ -76,7 +76,7 @@
 
 	  document.getElementsByClassName('pre-loader')[0].style.display = 'none';
 	},500);
-	  }, 4000);
+	  }, 3000);
 	});
 </script>
 </html>
