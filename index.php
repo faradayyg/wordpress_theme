@@ -21,7 +21,7 @@
 				</tr>
 				<tr>
 					<td width='100%' align="center">
-						<h1>&nbsp;<br /><br />Hang on, this is going to be cool...</h1>
+						<h1>&nbsp;<br /><br />Loading, please wait...</h1>
 					</td>
 				</tr>
 			</table>
